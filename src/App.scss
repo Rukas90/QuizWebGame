@@ -1,0 +1,373 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#background.index, #background.auth {
+   background-color: rgb(255, 225, 29);
+}
+#background.play {
+  background: radial-gradient(at bottom right, #16134f 65%, #1D1A5F);
+}
+#large-header-text {
+  font-size: 12em;
+  letter-spacing: 4px;
+  color: white;
+  filter: drop-shadow(0px 10px 1px #00000045);
+  
+  text-shadow: 8px 0 #ffce1d, -8px 0 #28d0ff, 0 8px #2bffcd, 0 -8px #ff2525,
+               4px 4px #ff2a54, -4px -4px #25ff33, 4px -4px #c320ff, -4px 4px #1f69ff;
+
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+#button-a {
+  padding: 4px 24px 4px 24px;
+
+  border-width: 0px;
+  border-radius: 8px;
+
+  background-color: white;
+
+  color: black;
+  font-size: 3em;
+  font-weight: 600;
+
+  transition-property: background-color, color;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+
+  filter: drop-shadow(0px 10px 1px #00000045);
+}
+#button-a:hover {
+  background-color: black;
+  color: white;
+  filter: drop-shadow(0px 0px 8px #0000007c);
+}
+#button-b {
+  padding: 4px 24px 4px 24px;
+
+  border-width: 0px;
+  border-radius: 8px;
+
+  background-color: white;
+
+  color: black;
+  font-size: 1.5em;
+  font-weight: 400;
+
+  transition-property: background-color, color;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+}
+#button-b:hover {
+  background-color: black;
+  color: white;
+}
+#button-b:active {
+  background-color: rgb(0, 0, 0);
+  color: rgb(187, 187, 187);
+}
+
+#form-container {
+  width: 462px;
+}
+
+#user-header-container {
+  padding: 24px;
+  z-index: 8;
+}
+
+#profile-logo {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #e9330a;
+  color: white;
+  border-radius: 10000px;
+  border-width: 0;
+  filter: drop-shadow(0px 6px 1px #00000045);
+
+  z-index: 12;
+
+  transition-property: background-color;
+  transition-duration: .125s;
+  transition-timing-function: ease;
+}
+#profile-logo:hover {
+  background-color: #f94a23;
+}
+#profile-logo:active {
+  background-color: #d33d1c;
+}
+
+#profile-name {
+  padding-left: 14px;
+  letter-spacing: 1px;
+  font-weight: 400
+}
+
+#profile-info-container {
+  &.invert > #profile-name {
+    color: white;
+  }
+}
+
+#user-profile-table-container {
+  width: 350px;
+  background-color: rgb(18, 18, 18);
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+#quiz-container {
+  padding: 32px;
+}
+
+#quiz-main-container {
+  padding-top: 64px;
+}
+
+#quiz-timer-container {
+  margin-bottom: 16px;
+}
+
+#quiz-timer-text {
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  color: #ffffffd3;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 6px;
+}
+
+#quiz-round-position-text {
+  color: #5550d9;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+#quiz-question-container {
+  width: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0 32px 0;
+  margin-bottom: 32px;
+}
+
+#quiz-question-text {
+  font-size: 4em;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+
+#quiz-answers-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+
+#quiz-choice-overlay {
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 32;
+  pointer-events: none;
+  backdrop-filter: blur(0px);
+
+  &.correct {
+    background-color: rgba(153, 234, 31, 0.5);
+    backdrop-filter: blur(8px);
+    pointer-events: all;
+  }
+  &.incorrect {
+    background-color: rgba(234, 31, 31, 0.5);
+    backdrop-filter: blur(8px);
+    pointer-events: all;
+  }
+  transition-property: background-color, backdrop-filter;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+#answer-score-text {
+  font-size: 0em;
+  font-weight: 800;
+  color: white;
+
+  &.show {
+    font-size: 12em;
+  }
+  transition-property: font-size;
+  transition-duration: 0.25s;
+  transition-timing-function: ease;
+}
+
+#round-indicator {
+  background-color: white;
+  font-size: 4em;
+  
+  width: 75px;
+  height: 75px;
+
+  filter: drop-shadow(0px 10px 1px #00000045);
+  text-shadow: 4px 0 #ffce1d, -4px 0 #28d0ff, 0 4px #2bffcd, 0 4px #ff2525,
+               2px 2px #ff2a54, -2px -2px #25ff33, 2px -2px #c320ff, -2px 2px #1f69ff;
+}
+
+#quiz-footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  flex-grow: 1;
+}
+
+#result-screen-container {
+  line-height: 14rem;
+}
+
+#result-screen-navigation {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 32px;
+  margin-top: 64px;
+
+  &>button {
+    width: 250px;
+  }
+}
+
+.score-text {
+  opacity: 0.65;
+}
+
+.large-text {
+  font-size: 9em;
+  font-weight: 800;
+  color: white;
+}
+
+.quiz-action-btn {
+  &.stop-playing {
+    background-color: rgb(207, 38, 38);
+    color: white;
+  }
+  &.skip-question, &.play-again {
+    background-color: #43E4EB;
+    color: #1D1A5F;
+  }
+  max-height: 65px;
+  border-width: 0;
+  font-size: 1.85em;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 24px 4px 24px;
+  border-radius: 0.5em;
+  filter: drop-shadow(0px 10px 1px #00000045);
+}
+
+.sand-clock-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.answer-option-btn {
+  position: relative;
+  width: 650px;
+  background-color: rgb(237, 237, 237);
+  border-radius: 0.5em;
+  padding: 12px 12px 12px 12px;
+  font-size: 2.5em;
+  font-weight: 600;
+  text-align: center;
+  border-width: 0;
+
+  filter: drop-shadow(0px 10px 1px #00000045);
+
+  transition-property: background-color;
+  transition-duration: .15s;
+  transition-timing-function: ease;
+}
+.answer-option-btn:hover {
+  background-color: #d3d3db;
+}
+.answer-option-btn:active {
+  background-color: #b5b5ca;
+}
+
+.font-family.chewy{
+  font-family: "Chewy", system-ui;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.top-0 {
+  top: 0;
+}
+.left-0 {
+  left: 0;
+}
+
+.padding-0 {
+  padding: 0;
+}
+.margin-0 {
+  margin: 0;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.paragraph-base {
+  font-size: 1.25rem;
+}
+
+.flex {
+  display: flex;
+}
+.relative {
+  position: relative;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.rounded-full {
+  border-radius: 1000px;
+}

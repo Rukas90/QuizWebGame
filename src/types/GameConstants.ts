@@ -1,0 +1,4 @@
+export const CORRECT_ANSWER_SCORE_GAIN   = +1000
+export const INCORRECT_ANSWER_SCORE_GAIN = -250
+export const TOTAL_QUESTIONS_PER_ROUND   = 10
+export const COUNTDOWN_IN_SECONDS        = 3

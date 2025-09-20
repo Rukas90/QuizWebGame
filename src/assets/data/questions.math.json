@@ -1,0 +1,32 @@
+[
+    {
+        "headline": "How many sides does a square has?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": 3
+    },
+    {
+        "headline": "How many sides does a sphere has?",
+        "options": [
+            "4",
+            "42",
+            "600",
+            "infinite"
+        ],
+        "answer": 3
+    },
+    {
+        "headline": "What is the number of Pi?",
+        "options": [
+            "3.1415...",
+            "3.2146...",
+            "3.1121...",
+            "3.3141..."
+        ],
+        "answer": 0
+    }
+]

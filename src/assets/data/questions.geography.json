@@ -1,0 +1,242 @@
+[
+    {
+        "headline": "What is the capital of Ireland?",
+        "options": ["Berlin", "Dublin", "Rome", "Madrid"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "Which continent is the Sahara Desert located on?",
+        "options": ["Asia", "Africa", "Australia", "South America"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "Mount Everest lies on the border of which two countries?",
+        "options": ["India and Nepal", "Nepal and China", "Bhutan and Nepal", "India and China"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "What is the largest ocean on Earth?",
+        "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+        "timerSec": 15,
+        "answer": 2
+    },
+    {
+        "headline": "Which river flows through Egypt?",
+        "options": ["Amazon", "Nile", "Ganges", "Yangtze"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "Which country has the most natural lakes?",
+        "options": ["Canada", "Russia", "United States", "Brazil"],
+        "timerSec": 15,
+        "answer": 0
+    },
+    {
+        "headline": "Which of these countries is landlocked?",
+        "options": ["Spain", "Switzerland", "Italy", "Norway"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "Which two continents are entirely in the Western Hemisphere?",
+        "options": ["North America and South America", "Europe and Africa", "Australia and Asia", "Africa and South America"],
+        "timerSec": 15,
+        "answer": 0
+    },
+    {
+        "headline": "What is the capital of Japan?",
+        "options": ["Tokyo", "Kyoto", "Osaka", "Nagoya"],
+        "timerSec": 15,
+        "answer": 0
+    },
+    {
+        "headline": "Which U.S. state is the largest by area?",
+        "options": ["Texas", "California", "Alaska", "Montana"],
+        "timerSec": 15,
+        "answer": 2
+    },
+    {
+        "headline": "What is the capital of Canada?",
+        "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+        "timerSec": 15,
+        "answer": 2
+    },
+    {
+        "headline": "Which country is both in Europe and Asia?",
+        "options": ["Turkey", "Italy", "Egypt", "Morocco"],
+        "timerSec": 15,
+        "answer": 0
+    },
+    {
+        "headline": "Which two countries share the longest international border?",
+        "options": ["USA and Canada", "Russia and China", "India and China", "Brazil and Argentina"],
+        "timerSec": 15,
+        "answer": 0
+    },
+    {
+        "headline": "What is the smallest country in the world?",
+        "options": ["Monaco", "San Marino", "Vatican City", "Liechtenstein"],
+        "timerSec": 15,
+        "answer": 2
+    },
+    {
+        "headline": "Which desert is the largest in the world?",
+        "options": ["Sahara", "Gobi", "Kalahari", "Antarctic Desert"],
+        "timerSec": 15,
+        "answer": 3
+    },
+    {
+        "headline": "What is the capital of Brazil?",
+        "options": ["São Paulo", "Rio de Janeiro", "Brasília", "Salvador"],
+        "timerSec": 15,
+        "answer": 2
+    },
+    {
+        "headline": "Which continent has the most countries?",
+        "options": ["Asia", "Africa", "Europe", "South America"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "Which two countries are on the island of Hispaniola?",
+        "options": ["Cuba and Jamaica", "Haiti and Dominican Republic", "Puerto Rico and Cuba", "Jamaica and Haiti"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "What is the capital of Australia?",
+        "options": ["Sydney", "Canberra", "Melbourne", "Brisbane"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "Which country has the most people?",
+        "options": ["India", "United States", "China", "Indonesia"],
+        "timerSec": 15,
+        "answer": 2
+    },
+    {
+        "headline": "Which continent is the Amazon Rainforest located in?",
+        "options": ["Asia", "South America", "Africa", "Australia"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "What is the capital of Egypt?",
+        "options": ["Cairo", "Alexandria", "Luxor", "Giza"],
+        "timerSec": 15,
+        "answer": 0
+    },
+    {
+        "headline": "Which sea separates Europe and Africa?",
+        "options": ["Red Sea", "Mediterranean Sea", "Black Sea", "Adriatic Sea"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "Which is the longest river in the world?",
+        "options": ["Amazon", "Yangtze", "Mississippi", "Nile"],
+        "timerSec": 15,
+        "answer": 3
+    },
+    {
+        "headline": "What is the capital of Russia?",
+        "options": ["Moscow", "Saint Petersburg", "Kazan", "Novosibirsk"],
+        "timerSec": 15,
+        "answer": 0
+    },
+    {
+        "headline": "Which U.S. state has the most people?",
+        "options": ["Texas", "California", "Florida", "New York"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "Which mountain range is the longest in the world?",
+        "options": ["Andes", "Himalayas", "Rockies", "Alps"],
+        "timerSec": 15,
+        "answer": 0
+    },
+    {
+        "headline": "Which is the capital of Germany?",
+        "options": ["Munich", "Hamburg", "Berlin", "Frankfurt"],
+        "timerSec": 15,
+        "answer": 2
+    },
+    {
+        "headline": "Which country has the most islands?",
+        "options": ["Norway", "Philippines", "Indonesia", "Sweden"],
+        "timerSec": 15,
+        "answer": 3
+    },
+    {
+        "headline": "Which two countries are connected by the Channel Tunnel?",
+        "options": ["France and Germany", "France and England", "England and Ireland", "England and Belgium"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "Which city is known as the 'City of Canals'?",
+        "options": ["Venice", "Amsterdam", "Bangkok", "Bruges"],
+        "timerSec": 15,
+        "answer": 0
+    },
+    {
+        "headline": "Which country is the largest in the world by area?",
+        "options": ["Canada", "United States", "Russia", "China"],
+        "timerSec": 15,
+        "answer": 2
+    },
+    {
+        "headline": "Which desert covers much of northern China and Mongolia?",
+        "options": ["Sahara", "Gobi", "Karakum", "Kalahari"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "Which continent is Greenland part of geographically?",
+        "options": ["Europe", "North America", "Asia", "Arctic"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "What is the capital of South Korea?",
+        "options": ["Busan", "Seoul", "Incheon", "Daegu"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "Which two countries share the island of Borneo along with Brunei?",
+        "options": ["Malaysia and Thailand", "Indonesia and Malaysia", "Philippines and Indonesia", "Malaysia and Singapore"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "What is the capital of Kenya?",
+        "options": ["Mombasa", "Kampala", "Dar es Salaam", "Nairobi"],
+        "timerSec": 15,
+        "answer": 3
+    },
+    {
+        "headline": "Which continent has no permanent population?",
+        "options": ["Arctic", "Antarctica", "Australia", "Asia"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "What is the capital of Spain?",
+        "options": ["Barcelona", "Madrid", "Seville", "Valencia"],
+        "timerSec": 15,
+        "answer": 1
+    },
+    {
+        "headline": "Which two countries are separated by the Bering Strait?",
+        "options": ["Russia and Canada", "USA and Russia", "USA and Canada", "Russia and Japan"],
+        "timerSec": 15,
+        "answer": 1
+    }
+]
